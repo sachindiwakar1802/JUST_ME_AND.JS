@@ -11,3 +11,6 @@ console.log(a + " year old " + b + " likes " + c);
 setTimeout(function(){
   console.log("Hey I am good");
 },3000)
+
+console.log("End")
+
