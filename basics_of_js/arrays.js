@@ -18,3 +18,6 @@ let newArr = myArr.join() // conver teh array in to teh single str
 // slice and splice
 
 const myn1 = myArr.slice(1,3);// it gives the sub arra and from starting index to teh last -1 index
+
+console.log(myArr.splice(1,4)); // manuplate the original array and return teh last elemnt too unlike in slice last aaray not includde
+
