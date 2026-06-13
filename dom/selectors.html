@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1 id="title">Hello</h1>
+
+  <script>
+    const heading = document.getElementById("title");
+
+    console.log(heading.innerHTML=("sachin"));
+    
+    console.log(heading.getAttribute('id'));
+
+    // for styling using css in js by using id and the styke attribute 
+
+    heading.style.padding = "100px"
+    heading.style.background = "red"
+    // how to get content 
+    // innertext,innercontext,innerhtml
+
+    document.querySelector('h1')//give first h1 of the page  if all select all h1
+    document.querySelector('title') // or .'heading ' for class
+
+  </script>
+
+
+</body>
+</html>
